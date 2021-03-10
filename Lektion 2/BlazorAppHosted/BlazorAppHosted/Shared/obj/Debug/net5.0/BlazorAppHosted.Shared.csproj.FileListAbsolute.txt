@@ -1,0 +1,12 @@
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 2\BlazorAppHosted\BlazorAppHosted\Shared\bin\Debug\net5.0\BlazorAppHosted.Shared.deps.json
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 2\BlazorAppHosted\BlazorAppHosted\Shared\bin\Debug\net5.0\BlazorAppHosted.Shared.dll
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 2\BlazorAppHosted\BlazorAppHosted\Shared\bin\Debug\net5.0\ref\BlazorAppHosted.Shared.dll
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 2\BlazorAppHosted\BlazorAppHosted\Shared\bin\Debug\net5.0\BlazorAppHosted.Shared.pdb
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 2\BlazorAppHosted\BlazorAppHosted\Shared\obj\Debug\net5.0\BlazorAppHosted.Shared.csprojAssemblyReference.cache
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 2\BlazorAppHosted\BlazorAppHosted\Shared\obj\Debug\net5.0\BlazorAppHosted.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 2\BlazorAppHosted\BlazorAppHosted\Shared\obj\Debug\net5.0\BlazorAppHosted.Shared.AssemblyInfoInputs.cache
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 2\BlazorAppHosted\BlazorAppHosted\Shared\obj\Debug\net5.0\BlazorAppHosted.Shared.AssemblyInfo.cs
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 2\BlazorAppHosted\BlazorAppHosted\Shared\obj\Debug\net5.0\BlazorAppHosted.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 2\BlazorAppHosted\BlazorAppHosted\Shared\obj\Debug\net5.0\BlazorAppHosted.Shared.dll
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 2\BlazorAppHosted\BlazorAppHosted\Shared\obj\Debug\net5.0\ref\BlazorAppHosted.Shared.dll
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 2\BlazorAppHosted\BlazorAppHosted\Shared\obj\Debug\net5.0\BlazorAppHosted.Shared.pdb

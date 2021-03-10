@@ -1,0 +1,43 @@
+﻿@page "/serviceworkers"
+@inject HttpClient Http
+
+<h1>Service Workers</h1>
+<p>This is all the Service Workers</p>
+
+@if (serviceworkers == null)
+{
+    <p>No customers found</p>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>#</th>
+            <th>Service Worker</th>
+            <th>Email</th>
+        </tr>
+
+
+        @foreach (var serviceworker in serviceworkers)
+        {
+            <tr>
+                <td>@serviceworker.Id</td>
+                <td>@serviceworker.DisplayName</td>
+                <td>@serviceworker.Email</td>
+            </tr>
+        }
+    </table>
+}
+
+
+
+
+@code {
+    private IEnumerable<ServiceWorkerViewModel> serviceworkers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        serviceworkers = await Http.GetFromJsonAsync<IEnumerable<ServiceWorkerViewModel>>("https://aspapilekt3.azurewebsites.net/api/serviceworkers");
+    }
+
+}

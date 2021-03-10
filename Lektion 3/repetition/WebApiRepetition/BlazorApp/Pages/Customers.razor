@@ -1,0 +1,43 @@
+﻿@page "/customers"
+@inject HttpClient Http
+
+<h1>Customers</h1>
+<p>This is all the Customers</p>
+
+@if (customers == null)
+{
+    <p>No customers found</p>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>#</th>
+            <th>Customer</th>
+            <th>Email</th>
+        </tr>
+
+
+        @foreach (var customer in customers)
+        {
+            <tr>
+                <td>@customer.Id</td>
+                <td>@customer.DisplayName</td>
+                <td>@customer.Email</td>
+            </tr>
+        }
+    </table>
+}
+
+
+
+
+@code {
+    private IEnumerable<CustomerViewModel> customers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        customers = await Http.GetFromJsonAsync<IEnumerable<CustomerViewModel>>("https://aspapilekt3.azurewebsites.net/api/customers");
+    }
+
+}

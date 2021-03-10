@@ -1,0 +1,51 @@
+﻿@page "/products"
+@inject HttpClient Http
+
+
+<h1>Products</h1>
+<p>This component demonstrates fetching data from a webapi.</p>
+
+<button @onclick="GetProductsAsync" class="btn btn-secondary mb-5">Hämta produkter</button>
+
+@if (products == null)
+{
+    <p>No products found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Product Name</th>
+                <th>Short Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in products)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.ShortDescription</td>
+                    <td>@product.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Product[] products;
+
+    private async Task GetProductsAsync()
+    {
+        products = await Http.GetFromJsonAsync<Product[]>("https://win20-lekt2recapapi.azurewebsites.net/api/products");
+    }
+
+    protected override async Task OnInitializedAsync()
+    {       
+        //await GetProductsAsync();
+    }
+}

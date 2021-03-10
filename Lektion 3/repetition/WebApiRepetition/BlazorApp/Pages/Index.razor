@@ -1,0 +1,47 @@
+﻿@page "/"
+@inject HttpClient Http
+
+<h1>Issues</h1>
+<p>This is all the issues</p>
+
+@if(issues == null)
+{
+    <p>No issues found</p>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>#</th>
+            <th>Issue Date</th>
+            <th>Customer</th>
+            <th>Service Worker</th>
+            <th>Issue Status</th>
+        </tr>
+
+
+        @foreach (var issue in issues)
+        {
+            <tr>
+                <td>@issue.Id</td>
+                <td>@issue.IssueDate</td>
+                <td>@issue.Customer.DisplayName</td>
+                <td>@issue.ServiceWorker.DisplayName</td>
+                <td>@issue.IssueStatus</td>
+            </tr>
+        }
+    </table>
+}
+
+
+
+
+@code {
+    private IEnumerable<IssueViewModel> issues;
+
+    protected override async Task OnInitializedAsync()
+    {
+        issues = await Http.GetFromJsonAsync<IEnumerable<IssueViewModel>>("https://aspapilekt3.azurewebsites.net/api/issues");
+    }
+
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xu+ML4KyLdD/LGMQMTo9jWNaKAogNqqOwfoMI6Y14diygGDRU8AblbRM/juNv/MmnY+Cayf48s1Gcad35nf6Rg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Samuel\\OneDrive\\Skrivbord\\Aspnet WebApi\\Lektion 6\\IotManagement\\SharedRepository\\SharedRepository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Samuel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Samuel\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Samuel\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

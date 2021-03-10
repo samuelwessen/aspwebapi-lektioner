@@ -1,0 +1,9 @@
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 6\IotManagement\SharedRepository\bin\Debug\netstandard2.0\SharedRepository.deps.json
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 6\IotManagement\SharedRepository\bin\Debug\netstandard2.0\SharedRepository.dll
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 6\IotManagement\SharedRepository\bin\Debug\netstandard2.0\SharedRepository.pdb
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 6\IotManagement\SharedRepository\obj\Debug\netstandard2.0\SharedRepository.csprojAssemblyReference.cache
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 6\IotManagement\SharedRepository\obj\Debug\netstandard2.0\SharedRepository.AssemblyInfoInputs.cache
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 6\IotManagement\SharedRepository\obj\Debug\netstandard2.0\SharedRepository.AssemblyInfo.cs
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 6\IotManagement\SharedRepository\obj\Debug\netstandard2.0\SharedRepository.csproj.CoreCompileInputs.cache
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 6\IotManagement\SharedRepository\obj\Debug\netstandard2.0\SharedRepository.dll
+C:\Users\Samuel\OneDrive\Skrivbord\Aspnet WebApi\Lektion 6\IotManagement\SharedRepository\obj\Debug\netstandard2.0\SharedRepository.pdb
